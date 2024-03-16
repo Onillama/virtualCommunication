@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topic {
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    border: 0 0 1px 0 solid black;
+    box-shadow: 2px 5px 6px 2px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 70px;
+
+}
+
+nav ul li {
+
+    margin: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: rgb(148, 146, 144);
+}
+
+.hero_section {
+    background-image: url("/img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.subHead {
+    margin-left: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.main_section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin:20px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+
+}
+.left label{
+    width: 80%;
+}
+.left label p{
+    font-size:16px;
+    padding:12px;
+}
+
+.right {
+    width: 50%;
+    height: 350px;
+}
+footer{
+    height:80px;
+    width: 100%;
+    border: 0 0 1px 0 solid black;
+    box-shadow: 2px 5px 6px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_main{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 50%;
+}
+.second{
+    width: 50%;
+    height: 350px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.container{
+    margin: 100px;
+    padding: 25px;
+    width: 60%;
+    height: 100%;
+    font-size: 22px;
+}
+.def{
+    margin: 25px;
+}
+ol li{
+padding: 8px;
+}
+.content{
+    margin-left: 50px;
+}
+.top{
+    background-color: rgb(7, 7, 8);
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.afternav{
+    margin-left: 50px;
+    color: white;
+    font-size: 18px;
+}
